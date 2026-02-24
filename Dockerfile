@@ -1,2 +1,3 @@
-FROM ngnix:alpine
+FROM ngnix:alpine:latest
+
 COPY index.html /usr/share/nginx/html/index.html
